@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
+    <title>Produk</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/bootstrap/bootstrap-icons.css">
+    <script src="vendor/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <style>
+        /* tulis kode CSS internal di bawah sini */
+        <style>section {
+            min-height: 90vh;
+        }
+
+        body {
+            background-color: rgb(50, 238, 238);
+        }
+    </style>
+
+    /* Batas Akhir penulisan kode CSS internal */
+    </style>
+</head>
+
+<body>
+    <!-- Tulis Kode Bootstrap Di Bawah Sini -->
+
+    <nav class="navbar sticky-top navbar-dark bg-success navbar-expand-lg bisadicopy">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logo/logo_kuy.png" height="40" alt="image">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav11"
+                aria-controls="navbarNav11" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav11">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#best-seller">Best Seller</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#our-team">Our Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#review">Review</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#contact-us">Contact Us</a>
+                    </li>
+                </ul>
+                <a target="_blank" class="btn btn-outline-light ms-md-3"
+                    href="https://wa.me/6281291551234?text=halo kopi kuy saya mau pesan"><i class="bi bi-whatsapp"></i>
+                    Chat</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="riki-block produk text-center my-5 py-5">
+        <div class="container">
+            <h1>Pilih Produk Anda</h1>
+            <p class="fs-4">Kualitas biji kopi terbaik, fresh diambil langsung dari petani</p>
+            <hr class="border border-success border-3 opacity-75">
+
+            <!-- Ini Untuk Select -->
+            <div class="row justify-content-center">
+                <div class="col-md-4">
+                    <div class="form-floating">
+                        <select class="form-select" id="select_kopi">
+                            <option selected disabled>-</option>
+                            <option value="arabica">Arabica</option>
+                            <option value="robusta">Robusta</option>
+                            <option value="nonkopi">Non Kopi</option>
+                        </select>
+                        <label for="select_kopi">Pilih Jenis Kopi</label>
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="baris_produk" class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 text-center mt-5">
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="images/produk/product_capuchino.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Cappuccino</h5>
+                            <div class="row hargasize my-4">
+                                <div class="col">
+                                    120 Gram
+                                </div>
+                                <div class="col fw-bold text-primary">
+                                    58.000
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-success w-100"><i class="bi bi-cart4"></i> Beli</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="riki-block footer-small py-4 bg-success">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-8">
+                    <ul class="nav justify-content-center justify-content-md-start">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#best-seller">Best Seller</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#our-team">Our Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#review">Review</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#contact-us">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-12 col-md-4 mt-4 mt-md-0 text-center text-md-right">
+                    &copy; 2023 Kopi Kuy &amp; Tim . All Rights Reserved
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Batas Akhir penulisan kode Bootstrap -->
+    <script>
+        /* Tulis Javascript Di bawah Sini */
+        var data_mentah = {
+            "Coffe": [{
+                "nama": "Espresso",
+                "foto": "https://i.pinimg.com/564x/d4/5e/7a/d45e7abc19d3a09ab4fab3c974ef77fd.jpg",
+                "size": "180ml",
+                "harga": "17.000",
+                "link": "https://www.google.com"
+            },
+            {
+                "nama": "Cappucino",
+                "foto": "https://i.pinimg.com/564x/6b/1d/f0/6b1df056933cb78c7a2029dea19f646f.jpg",
+                "size": "200ml",
+                "harga": "17.000",
+                "link": "https://www.google.com"
+            },
+            {
+                "nama": "Latte",
+                "foto": "https://i.pinimg.com/564x/d1/a4/78/d1a4782feedaa389e50021897a8a77cd.jpg",
+                "size": "200ml",
+                "harga": "20.000",
+                "link": "https://www.google.com"
+            },
+            {
+                "nama": "Affogato",
+                "foto": "https://i.pinimg.com/564x/41/52/56/4152569c612379cec8c2c2405df5450f.jpg",
+                "size": "200ml",
+                "harga": "27.000",
+                "link": "https://www.google.com"
+            }
+            ],
+            "Non Coffee": [
+                {
+                    "nama": "Iced Tea",
+                    "foto": "https://i.pinimg.com/564x/d6/8c/8e/d68c8efc0730959d00ae190f6c70dd1e.jpg",
+                    "size": "230ml",
+                    "harga": "8.000",
+                    "link": "https://www.google.com"
+                },
+                {
+                    "nama": "Chocolate Drink",
+                    "foto": "https://i.pinimg.com/564x/e6/1f/46/e61f46f8be0398e4a882583a8e27dd7a.jpg",
+                    "size": "200ml",
+                    "harga": "30.000",
+                    "link": "https://www.google.com"
+                },
+                {
+                    "nama": "Moctail",
+                    "foto": "https://i.pinimg.com/564x/92/c9/06/92c90689663e4268616a886a1e7dcf59.jpg",
+                    "harga": "20.000",
+                    "size": "180 Ml",
+                    "link": "https://shopee.co.id/eaifjlesjfi"
+                },
+                {
+                    "nama": "A Lilac Grey Sea",
+                    "foto": "https://i.pinimg.com/564x/b0/3f/b5/b03fb5b508a2b7283e866e9c62e9556a.jpg",
+                    "harga": "35.000",
+                    "size": "200 Ml",
+                    "link": "https://shopee.co.id/eaifjlesjfi"
+                }],
+            "Food": [
+                {
+                    "nama": "Fried Rice",
+                    "foto": "https://i.pinimg.com/564x/81/9c/0c/819c0c40d7c5a59eb85e0a63340f095d.jpg",
+                    "size": "200ml",
+                    "harga": "30.000",
+                    "link": "https://www.google.com"
+                },
+                {
+                    "nama": "Shish Tawook",
+                    "foto": "https://i.pinimg.com/564x/cf/84/cc/cf84ccd1592f0e3964e2ac0ac98c5160.jpg",
+                    "size": "200ml",
+                    "harga": "33.000",
+                    "link": "https://www.google.com"
+                },
+                {
+                    "nama": "Fruit Salad",
+                    "foto": "https://i.pinimg.com/564x/e5/1c/0c/e51c0c1d49939bd1e81af8c6276ac925.jpg",
+                    "size": "250ml",
+                    "harga": "25.000",
+                    "link": "https://www.google.com"
+                },
+                {
+                    "nama": "Oreo Fudge Brownies",
+                    "foto": "https://i.pinimg.com/564x/02/03/10/020310dc9ea8cce00256c424010837fe.jpg",
+                    "size": "250ml",
+                    "harga": "25.000",
+                    "link": "https://www.google.com"
+                },
+            ]
+        }
+        var data_kopi = []
+
+        console.log(data_mentah)
+
+        var sumber = "https://rikikurnia.com/prakerja/api/kopi"
+
+        $.getJSON(sumber).then(function (data) {
+
+        })
+
+        function updateSelect() {
+            select_kopi.innerHTML = ` <option selected disabled>-</option>`
+            Object.keys(data_mentah).forEach(function (opsi) {
+                select_kopi.innerHTML += `<option value="${opsi}">${opsi}</option>`
+            })
+        }
+
+        updateSelect()
+
+        function updateTampilan() {
+            baris_produk.innerHTML = ""
+            data_kopi.forEach(function (kopi) {
+
+                baris_produk.innerHTML += ` <div class="col mb-4">
+                    <div class="card">
+                        <img src="${kopi.foto}" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">${kopi.nama}</h5>
+                            <div class="row hargasize my-4">
+                                <div class="col">
+                                    120 Gram
+                                </div>
+                                <div class="col fw-bold text-primary">
+                                    58.000
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-success w-100"><i class="bi bi-cart4"></i> Beli</a>
+                        </div>
+                    </div>
+                </div>`
+
+            })
+        }
+
+        updateTampilan()
+
+        select_kopi.onchange = function () {
+            console.log(select_kopi.value)
+            data_kopi = data_mentah[select_kopi.value]
+            console.log(data_kopi)
+            updateTampilan()
+        }
+
+        /* Batas Akhir penulisan kode Javascript */
+    </script>
+</body>
+
+</html>
