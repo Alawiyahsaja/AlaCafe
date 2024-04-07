@@ -1,0 +1,92 @@
+var data_mentah = {
+    "Coffe": [
+        {
+            "nama": "Espresso",
+            "foto": "https://i.pinimg.com/564x/d4/5e/7a/d45e7abc19d3a09ab4fab3c974ef77fd.jpg",
+            "size": "180ml",
+            "harga": "17.000",
+            "link": "https://www.google.com"
+        },
+        {
+            "nama": "Cappucino",
+            "foto": "images/produk/product_capuchino.jpg",
+            "size": "200ml",
+            "harga": "17.000",
+            "link": "https://www.google.com"
+        },
+        {
+            "nama": "Latte",
+            "foto": "images/produk/product_latte.jpg",
+            "size": "200ml",
+            "harga": "20.000",
+            "link": "https://www.google.com"
+        },
+        {
+            "nama": "Affogato",
+            "foto": "https://i.pinimg.com/564x/78/ca/11/78ca1186a5da937cae983f0fde603068.jpg",
+            "size": "200ml",
+            "harga": "27.000",
+            "link": "https://www.google.com"
+        }
+    ],
+    "Non Coffee": [
+        {
+            "nama": "Iced Tea",
+            "foto": "https://i.pinimg.com/564x/d6/8c/8e/d68c8efc0730959d00ae190f6c70dd1e.jpg",
+            "size": "230ml",
+            "harga": "8.000",
+            "link": "https://www.google.com"
+        },
+        {
+            "nama": "Chocolate Drink",
+            "foto": "https://i.pinimg.com/564x/2a/3c/24/2a3c246d4af9283875b4b02cd5cd2af1.jpg",
+            "size": "200ml",
+            "harga": "30.000",
+            "link": "https://www.google.com"
+        },
+        {
+            "nama": "Moctail",
+            "foto": "https://i.pinimg.com/564x/92/c9/06/92c90689663e4268616a886a1e7dcf59.jpg",
+            "harga": "20.000",
+            "size": "180 Ml",
+            "link": "https://shopee.co.id/eaifjlesjfi"
+        },
+        {
+            "nama": "A Lilac Grey Sea",
+            "foto": "https://i.pinimg.com/564x/30/97/11/3097117de515b3d17393e59ff567f4bb.jpg",
+            "harga": "35.000",
+            "size": "200 Ml",
+            "link": "https://shopee.co.id/eaifjlesjfi"
+        }
+    ],
+    "Food": [
+        {
+            "nama": "Fried Rice",
+            "foto": "https://i.pinimg.com/564x/81/9c/0c/819c0c40d7c5a59eb85e0a63340f095d.jpg",
+            "size": "200ml",
+            "harga": "30.000",
+            "link": "https://www.google.com"
+        },
+        {
+            "nama": "Shish Tawook",
+            "foto": "https://i.pinimg.com/564x/cf/84/cc/cf84ccd1592f0e3964e2ac0ac98c5160.jpg",
+            "size": "200ml",
+            "harga": "33.000",
+            "link": "https://www.google.com"
+        },
+        {
+            "nama": "Fruit Salad",
+            "foto": "https://i.pinimg.com/564x/44/e3/73/44e373142235a3f314ee3122048c21df.jpg",
+            "size": "250ml",
+            "harga": "25.000",
+            "link": "https://www.google.com"
+        },
+        {
+            "nama": "Oreo Fudge Brownies",
+            "foto": "https://i.pinimg.com/564x/c3/f2/87/c3f287e33aabb0829e60d37642cad269.jpg",
+            "size": "250ml",
+            "harga": "25.000",
+            "link": "https://www.google.com"
+        },
+    ]
+}
